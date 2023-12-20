@@ -1,6 +1,6 @@
 package Inherit1;
 
-//MULTILEVEL INGERITANCE
+//MULTILEVEL INHERITANCE
 class Demo
 {
     String name = "Shobhit" ;
@@ -15,9 +15,10 @@ class Demo
 class Demo1 extends Demo
 {}
 
-
 class Demo2 extends Demo1 
 {}
+
+// Java does not support Multiple inheritence
 
 public class L1_P1 {
     public static void main(String[] args) {
